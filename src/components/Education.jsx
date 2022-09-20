@@ -1,6 +1,8 @@
+import { Container } from '@chakra-ui/react'
+
 export default function Education() {
   return (
-    <>
+    <Container>
     <h2>Education</h2>
       <container>
         Boca Code Software Engineering Career Course Certificate July 2022- Sep
@@ -15,6 +17,6 @@ export default function Education() {
       <container>
         Nova Southeastern University, Bachelor of Science in Nursing, May 2014
       </container>
-    </>
+    </Container>
   );
 }

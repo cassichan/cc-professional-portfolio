@@ -1,7 +1,9 @@
+import { Container } from "@chakra-ui/react";
+
 export default function Skills() {
   return (
-    <>
-    <h2>Skills</h2>
+    <Container>
+      <h2>Skills</h2>
       <container>Frontend Development/Design</container>
       <br />
       <container>Backend Development</container>
@@ -89,6 +91,6 @@ export default function Skills() {
           />
         </a>
       </container>
-    </>
+    </Container>
   );
 }

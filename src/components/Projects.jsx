@@ -1,6 +1,7 @@
+import { Container } from "@chakra-ui/react";
 export default function Projects() {
   return (
-    <>
+    <Container>
       <h2>Projects</h2>
       <container>
         <h2>"Chance 4 Pets"</h2>A full-stack web application that allows users
@@ -25,7 +26,7 @@ export default function Projects() {
         <h2>"Cassie's Calculator"</h2>A calculator web app using React. Styled
         with pure CSS and deployed using firebase hosting
       </container>
-    {/* //   <img src="" alt="">
+      {/* //   <img src="" alt="">
     //     {" "}
     //     <a href="https://github.com/cassichan/personal-react-calculator"></a>
     //   </img>
@@ -33,6 +34,6 @@ export default function Projects() {
     //     {" "}
     //     <a href="https://cassies-react-project-1.web.app/"></a>
     //   </img> */}
-    </>
+    </Container>
   );
 }

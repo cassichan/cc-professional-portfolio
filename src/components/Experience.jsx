@@ -1,6 +1,7 @@
+import { Container } from "@chakra-ui/react";
 export default function Experience() {
   return (
-    <>
+    <Container>
       <h2>Experience</h2>
       <h3>"Full-stack software engineer candidate"</h3>
       <h4>Boca Code</h4>
@@ -15,6 +16,6 @@ export default function Experience() {
         React-Native, Express, Node.js, SQL, MongoDB, Firestore, Firebase, and
         Git, as well as Agile methodoligies and soft skills
       </h5>
-    </>
+    </Container>
   );
 }
