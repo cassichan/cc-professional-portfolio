@@ -1,7 +1,14 @@
+import { Stack, Button, ButtonGroup } from "@chakra-ui/react";
+import "../App.css"
+
 export default function NavBar() {
   return (
-    <>
-      <container className="social-container">
+    <container 
+    className="nav-container"
+    >
+      {/* <container> */}
+      
+        {/* <div>Cassandra's Portfolio</div> */}
         <a href="https://github.com/cassichan" target="_blank" rel="noreferrer">
           <img
             className="logo-img"
@@ -21,6 +28,6 @@ export default function NavBar() {
           ></img>
         </a>
       </container>
-    </>
+    // </container>
   );
 }

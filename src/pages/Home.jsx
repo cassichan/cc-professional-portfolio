@@ -9,24 +9,28 @@ import { Divider } from "@chakra-ui/react";
 export default function Home() {
   return (
     <>
-      <NavBar />
-      <br />
-      <Divider/>
-      <Greeting />
-      <Divider />
-      <br />
-      <Skills />
-      <Divider />
-      <br />
-      <Education />
-      <Divider />
-      <br />
-      <Experience />
-      <Divider />
-      <br />
-      <Projects />
-      <Divider />
-      {/* <GithubProfile/> */}
+      {/* <div className="nav-container"> */}
+        <NavBar />
+        <br />
+        <Divider />
+      {/* </div> */}
+      <div className="home-content">
+        <Greeting />
+        <Divider />
+        <br />
+        <Skills />
+        <Divider />
+        <br />
+        <Education />
+        <Divider />
+        <br />
+        <Experience />
+        <Divider />
+        <br />
+        <Projects />
+        <Divider />
+        {/* <GithubProfile/> */}
+      </div>
     </>
   );
 }
