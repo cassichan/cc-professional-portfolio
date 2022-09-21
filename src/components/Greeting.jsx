@@ -14,11 +14,11 @@ export default function Greeting() {
             Hi! I'm <span class="typewriter"></span>
           </h1>
 
-          {/* <h1 aria-label="Hi! I'm a developer">
+          <h1 aria-label="Hi! I'm a developer">
             I'm a passionate full-stack&nbsp;<span class="typewriter thick"></span>
           </h1>
 
-          <h1 aria-label="Hi! I'm Cassandra Curcio">
+          {/* <h1 aria-label="Hi! I'm Cassandra Curcio">
             Hi! I'm a &nbsp;<span class="typewriter nocaret"></span>
           </h1>  */}
 

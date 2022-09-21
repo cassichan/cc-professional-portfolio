@@ -177,6 +177,7 @@
   display: flex;
   /* border-color: white; */
   list-style: none;
+  animation: slideMe .7s ease-in;
 }
 
 .education-list-item {
@@ -247,18 +248,37 @@ footer {
   height: 30vh;
 }
 
-
 @keyframes typing {
-  0% {content: ""}
-  10% {content: "C"}
-  20% {content: "Ca"}
-  30% {content: "Cas"}
-  40% {content: "Cass"}
-  50% {content: "Cassa"}
-  60% {content: "Cassan"}
-  70% {content: "Cassand"}
-  80% {content: "Cassandr"}
-  100% {content: "Cassandra"}
+  0% {
+    content: "";
+  }
+  10% {
+    content: "C";
+  }
+  20% {
+    content: "Ca";
+  }
+  30% {
+    content: "Cas";
+  }
+  40% {
+    content: "Cass";
+  }
+  50% {
+    content: "Cassa";
+  }
+  60% {
+    content: "Cassan";
+  }
+  70% {
+    content: "Cassand";
+  }
+  80% {
+    content: "Cassandr";
+  }
+  100% {
+    content: "Cassandra";
+  }
 
   /* 0.0000%, 27.3488% { content: ""; }
   1.1395%, 26.2093% { content: "C"; }
@@ -297,8 +317,13 @@ footer {
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 .typewriter {
@@ -324,21 +349,136 @@ footer {
   border-right: 0;
 }
 
-
 @media (prefers-reduced-motion) {
   .typewriter::after {
     animation: none;
   }
-  
+
   @keyframes sequencePopup {
-    0%, 100% { content: "Cassandra Curcio"; }
-    /* 25% { content: "developer"; }
-    50% { content: "developer"; } */
-    /* 75% { content: "human"; } */
+    0%,
+    100% {
+      content: "Cassandra Curcio";
+    }
+    25% {
+      content: "developer";
+    }
+    50% {
+      content: "developer";
+    }
+    75% {
+      content: "human";
+    }
   }
 
   .typewriter::before {
     content: "developer";
     animation: sequencePopup 12s linear infinite;
+  }
+}
+
+/* @keyframes slidein {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+} */
+
+/* .slidingText1 {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slidingText1 h3 {
+  font-size: 2em;
+  color: #d50000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  transform: translateX(100%);
+  animation: slidingText1 20s linear infinite;
+}
+
+@keyframes slidingText1 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slidingText2 {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slidingText2 h3 {
+  font-size: 2em;
+  color: #aa00ff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  transform: translateX(100%);
+  animation: slidingText2 20s linear infinite;
+}
+
+@keyframes slidingText2 {
+  0% {
+    transform: translateX(50%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.slidingText3 {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slidingText3 h3 {
+  font-size: 2em;
+  color: #6200ea;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  transform: translateX(100%);
+  animation: slidingText3 20s linear infinite;
+}
+
+@keyframes slidingText3 {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+} */
+
+
+@keyframes slideMe {
+  0% {
+    transform: skewX(53deg) translateX(-500px)
+  }
+  100%{
+    transform: skew(0deg)
   }
 }

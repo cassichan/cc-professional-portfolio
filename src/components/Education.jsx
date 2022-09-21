@@ -8,10 +8,10 @@ export default function Education() {
       </container>
       <container>
         <ul className="education-list">
-          <li className="education-list-item">
-            <h3 className="education-title"></h3>Boca Code Software Engineering
-            Career Course Certificate
-            <h4 className="education-description">July 2022- Sep 2022 </h4>
+          <li className="education-list-item slide-in">
+            <h3 className="education-title">Boca Code Software Engineering
+            Career Course Certificate</h3>
+            <h4 className="education-description slidingText2">July 2022- Sep 2022 </h4>
           </li>
           <li className="education-list-item">
             <h3 className="education-title"></h3> Nova Southeastern University,
