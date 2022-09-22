@@ -5,7 +5,7 @@ export default function Experience() {
     <AnimationOnScroll animateIn="animate__bounceIn">
       <section className="experience-container">
         <container className="experience-title">
-          <h2 className="header-class">Experience</h2>
+          <h2 className="header-class">{"<"}Experience{">"}</h2>
         </container>
         <ul className="experience-list hidden">
           <li className="experience-list-item">

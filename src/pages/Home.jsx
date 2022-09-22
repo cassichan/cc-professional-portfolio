@@ -6,6 +6,7 @@ import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 import { Divider } from "@chakra-ui/react";
+import ContactMe from "../components/ContactMe";
 
 export default function Home() {
   return (
@@ -29,6 +30,8 @@ export default function Home() {
         <Divider />
         <br />
         <Projects />
+        <Divider />
+        <ContactMe/>
         <Divider />
        <Footer/>
       </div>

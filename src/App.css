@@ -17,7 +17,7 @@
 }
 
 section {
-  min-height: 70vh;
+  min-height: 50vh;
   display: grid;
   place-items: center;
 }
@@ -67,8 +67,8 @@ section {
     #d7f3f7,
     #daeef7
   );
-  -webkit-animation: gradient 15s ease infinite;
-  animation: gradient 15s ease infinite;
+  /* -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite; */
   z-index: 100;
 }
 
@@ -130,27 +130,27 @@ section {
   animation: slideMe 0.7s ease-in;
 }
 
-.photo-self {
-  width: 300px;
-  height: auto;
-}
+
 
 .main-skills-container {
+ 
   font-size: 1rem;
   text-align: center;
   width: 900px;
   padding: 50px;
 }
 
+
+
 .skills-general {
-  display: flex;
+  /* display: flex; */
   /* animation: slideMe 0.7s ease-in; */
 }
 
 .skills-container {
   margin: 100px;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: center;
   /* animation: slideMe 0.7s ease-in; */
 }
@@ -176,7 +176,6 @@ section {
 .education-list {
   display: flex;
   list-style: none;
-  /* animation: slideMe 0.7s ease-in; */
 }
 
 .education-list-item {
@@ -198,7 +197,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* animation: slideMe 0.7s ease-in; */
 }
 
 .bocacode-img {
@@ -206,13 +204,11 @@ section {
   height: auto;
   width: 20%;
   padding: 30px;
-  /* animation: slideMe 0.7s ease-in; */
 }
 
 .project-section {
   width: 400px;
   padding: 20px;
-  /* animation: slideMe 0.7s ease-in; */
 }
 
 .project-list {
@@ -416,3 +412,9 @@ footer {
     transform: skew(0deg);
   }
 } */
+
+
+.photo-self {
+  width: 300px;
+  height: auto;
+}

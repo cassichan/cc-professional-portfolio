@@ -6,7 +6,7 @@ export default function Education() {
     <AnimationOnScroll animateIn="animate__bounceIn">
       <section className="education-container">
         <container className="education-title">
-          <h2 className="header-class">Education</h2>
+          <h2 className="header-class">{"<"}Education{">"}</h2>
         </container>
         <container>
           <ul className="education-list hidden">

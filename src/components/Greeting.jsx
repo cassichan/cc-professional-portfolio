@@ -8,24 +8,9 @@ export default function Greeting() {
     <>
       <section className="greeting-container">
         <container className="greeting-text">
-          {/* <h1 className="greeting-hello">
-            Hi all,
-            <br /> I'm Cassandra Curcio!
-          </h1> */}
           <Intro />
           <br />
           <Divider />
-          {/* <h1 className="greeting-intro"aria-label="Hi! I'm Cassandra Curcio">
-            Hi! I'm <span class="typewriter"></span>
-          </h1> */}
-
-          {/* <h1 aria-label="Hi! I'm a developer">
-            I'm a passionate full-stack&nbsp;<span class="typewriter thick"></span>
-          </h1> */}
-
-          {/* <h1 aria-label="Hi! I'm Cassandra Curcio">
-            Hi! I'm a &nbsp;<span class="typewriter nocaret"></span>
-          </h1>  */}
 
           <br />
           <AnimationOnScroll
@@ -52,12 +37,6 @@ export default function Greeting() {
             </container>
           </AnimationOnScroll>
         </container>
-        {/* <img
-          className="photo-self"
-          // src="photoscreenshot.png"
-          src="D2BEA143-BDAC-4F8E-BDF2-CD6B4A62736D_1_201_a.jpeg"
-          alt="Photo of Cassandra, female with dark blonde hair in orange blouse and grey slacks."
-        ></img> */}
       </section>
     </>
   );

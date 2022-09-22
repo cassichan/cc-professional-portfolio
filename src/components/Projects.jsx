@@ -5,7 +5,7 @@ export default function Projects() {
     <section className="project-container">
       <AnimationOnScroll animateIn="animate__bounceIn">
         <container className="project-title">
-          <h2 className="header-class">Projects</h2>
+          <h2 className="header-class">{"<"}Projects{">"}</h2>
         </container>
         <ul className="project-list hidden">
           <li className="project-list-item">

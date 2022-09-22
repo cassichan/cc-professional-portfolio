@@ -28,7 +28,7 @@ export default function NavBar() {
     <>
       <section className="nav-container">
         <header className="header-text">
-          Cassandra's Portfolio
+          <b>{"<"}Cassandra's Portfolio{">"}</b>
         </header>
         {/* <container className="social-container">
           <a
