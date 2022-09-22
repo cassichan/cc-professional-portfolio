@@ -1,4 +1,7 @@
+import Intro from "./Intro";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import "../App.css";
+import { Divider } from "@chakra-ui/react";
 
 export default function Greeting() {
   return (
@@ -9,10 +12,12 @@ export default function Greeting() {
             Hi all,
             <br /> I'm Cassandra Curcio!
           </h1> */}
-
-          <h1 aria-label="Hi! I'm Cassandra Curcio">
+          <Intro />
+          <br />
+          <Divider />
+          {/* <h1 className="greeting-intro"aria-label="Hi! I'm Cassandra Curcio">
             Hi! I'm <span class="typewriter"></span>
-          </h1>
+          </h1> */}
 
           {/* <h1 aria-label="Hi! I'm a developer">
             I'm a passionate full-stack&nbsp;<span class="typewriter thick"></span>
@@ -23,23 +28,28 @@ export default function Greeting() {
           </h1>  */}
 
           <br />
-          <AnimationOnScroll animateIn="animate__bounceIn">
-            <h2>
-              {" "}
-              I'm a passionate Full Stack software developer!
-              <br />
-              <br /> I am experienced in JavaScript, React.js, HTML, CSS,
-              MongoDB, Firestore, SQL, and Express.
-              <br />
-              <br />I am eager to learn many technologies and frameworks!
-            </h2>
-            <br />
-            <button className="button">
-              <a href="https://docs.google.com/document/d/12S9bzpJDplJncOIERJtzG56qccdH6e1FYjuRMpLjo_s/edit">
+          <AnimationOnScroll
+            animateIn="animate__bounceIn"
+            initiallyVisible="true"
+          >
+            <container className="greeting-details">
+              <h2>
                 {" "}
-                My Resume
-              </a>
-            </button>
+                I'm a passionate Full Stack software developer!
+                <br />
+                <br /> I am experienced in JavaScript, React.js, HTML, CSS,
+                MongoDB, Firestore, SQL, and Express.
+                <br />
+                <br />I am eager to learn many technologies and frameworks!
+              </h2>
+              <br />
+              <button className="button">
+                <a href="https://docs.google.com/document/d/12S9bzpJDplJncOIERJtzG56qccdH6e1FYjuRMpLjo_s/edit">
+                  {" "}
+                  My Resume
+                </a>
+              </button>
+            </container>
           </AnimationOnScroll>
         </container>
         {/* <img

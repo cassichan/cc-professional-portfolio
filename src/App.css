@@ -8,6 +8,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Inconsolata:wght@400;800&family=Montserrat:wght@100;400&family=Nanum+Gothic:wght@700&family=Open+Sans:ital,wght@0,300;1,400&family=Roboto:wght@400;500&display=swap");
 
+.greeting-intro{
+  font-size: 5rem;
+}
+
+.greeting-details {
+  font-size: 1.5rem;
+}
+
 section {
   min-height: 70vh;
   display: grid;
@@ -316,6 +324,7 @@ footer {
 
 .typewriter {
   --caret: currentcolor;
+  font-size: 5rem;
 }
 
 .typewriter::before {
