@@ -8,7 +8,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Inconsolata:wght@400;800&family=Montserrat:wght@100;400&family=Nanum+Gothic:wght@700&family=Open+Sans:ital,wght@0,300;1,400&family=Roboto:wght@400;500&display=swap");
 
-.greeting-intro{
+.greeting-intro {
   font-size: 5rem;
 }
 
@@ -127,24 +127,17 @@ section {
   justify-content: space-evenly;
   margin: auto;
   padding: 50px;
-  animation: slideMe 0.7s ease-in;
 }
 
-
-
 .main-skills-container {
- 
   font-size: 1rem;
   text-align: center;
   width: 900px;
   padding: 50px;
 }
 
-
-
 .skills-general {
   /* display: flex; */
-  /* animation: slideMe 0.7s ease-in; */
 }
 
 .skills-container {
@@ -152,16 +145,11 @@ section {
   display: flex;
   /* flex-direction: row; */
   justify-content: center;
-  /* animation: slideMe 0.7s ease-in; */
 }
 
 .skill {
   padding: 20px;
 }
-
-/* .express-icon {
-  color: white;
-} */
 
 .react-img {
   height: auto;
@@ -169,21 +157,33 @@ section {
   margin: auto;
 }
 
-.education-container {
+/* .education-container {
   text-align: left;
-}
+} */
 
 .education-list {
   display: flex;
   list-style: none;
+  text-align: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 
-.education-list-item {
+.education-list-item-container {
   padding: 20px;
   margin: 10px;
-  height: 20vh;
+  height: 25vh;
   border: white;
   border-style: solid;
+  width: 30vw;
+  contain: content;
+  display: grid;
+  place-items: center;
+}
+
+.lordicon {
+  width: 30%;
+  height: 50%;
 }
 
 .experience-container {
@@ -223,6 +223,7 @@ section {
   height: 65vh;
   border: white;
   border-style: solid;
+  contain: content;
 }
 
 .project-title {
@@ -412,7 +413,6 @@ footer {
     transform: skew(0deg);
   }
 } */
-
 
 .photo-self {
   width: 300px;

@@ -5,7 +5,9 @@ export default function Projects() {
     <section className="project-container">
       <AnimationOnScroll animateIn="animate__bounceIn">
         <container className="project-title">
-          <h2 className="header-class">{"<"}Projects{">"}</h2>
+          <h2 className="header-class">
+            {"<"}Projects{">"}
+          </h2>
         </container>
         <ul className="project-list hidden">
           <li className="project-list-item">
@@ -22,22 +24,42 @@ export default function Projects() {
                 RESTful API with Express and Node. Hosted on Firebase Hosting
                 and deployed on Google Cloud with Firebase Functions
               </h4>
+              <br />
+              <a
+                className="link"
+                href="https://animal-rescue-frontend-js.web.app/"
+              >
+                Live
+              </a>
+              <br />
               <a
                 className="link"
                 href="https://github.com/cassichan/animal-rescue-frontend"
-              ></a>
+              >
+                Github Repo
+              </a>
             </article>
           </li>
           <li className="project-list-item">
             <article className="project-section">
               <h3 className="project-title">"Cassie's Calculator"</h3>A
-              calculator web app using React. Styled with pure CSS and deployed
-              using firebase hosting
-              <h4 className="project-description"></h4>
+              calculator web application using React. Styled with pure CSS and
+              deployed using firebase hosting
+              {/* <h4 className="project-description"></h4> */}
+              <br />
+              <a
+                className="link"
+                href="https://cassies-react-project-1.web.app/"
+              >
+                Live
+              </a>
+              <br />
               <a
                 className="link"
                 href="https://github.com/cassichan/animal-rescue-frontend"
-              ></a>
+              >
+                Github Repo
+              </a>
             </article>
           </li>
         </ul>
