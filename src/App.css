@@ -136,15 +136,17 @@ section {
   padding: 50px;
 }
 
-.skills-general {
-  /* display: flex; */
-}
+
 
 .skills-container {
   margin: 100px;
   display: flex;
   /* flex-direction: row; */
   justify-content: center;
+}
+
+.skills-text {
+  font-size: 1.5rem;
 }
 
 .skill {
@@ -166,7 +168,7 @@ section {
 .education-list-item-container {
   padding: 20px;
   margin: 10px;
-  height: 30vh;
+  height: 35vh;
   border: white;
   border-style: solid;
   width: 30vw;
@@ -188,6 +190,14 @@ section {
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
+}
+
+.experience-title {
+  font-size: 1.5rem;
+}
+
+.experience-description {
+  font-size: 1.25rem;
 }
 
 .experience-list-item {
@@ -216,11 +226,12 @@ section {
 
 .project-list-item {
   padding: 20px;
-  margin: 10px;
-  height: 120vh;
+  margin: 20px;
+  height: 140vh;
   border: white;
   border-style: solid;
   contain: content;
+  text-align: center;
 }
 
 .project-title {
@@ -233,9 +244,17 @@ section {
   height: 30vh;
 }
 
+.link {
+  color: hotpink;
+}
+
+.link:hover {
+  color: white;
+}
+
 .iframe {
-  height: 70vh;
-  width: 100%
+  height: 90vh;
+  width: 100%;
 }
 
 footer {

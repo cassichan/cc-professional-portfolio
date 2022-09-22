@@ -9,7 +9,7 @@ export default function Skills() {
             {"<"}Skills{">"}
           </h2>
         </container>
-        {"{"}Frontend Development ; Backend Development{"}"}
+        <h3 className="skills-text">{"{"}Frontend Development ; Backend Development{"}"}</h3>
         <br />
         <br />
         <container className="skills-general">
@@ -18,7 +18,7 @@ export default function Skills() {
           </container>
         </container>
         <br />
-        <container className="skills-container hidden">
+        <container className="skills-container">
           <container className="skill">
             JavaScript
             <a

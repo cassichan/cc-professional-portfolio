@@ -5,12 +5,15 @@ export default function Experience() {
     <AnimationOnScroll animateIn="animate__bounceIn">
       <section className="experience-container">
         <container className="experience-title">
-          <h2 className="header-class">{"<"}Experience{">"}</h2>
+          <h2 className="header-class">
+            {"<"}Experience{">"}
+          </h2>
         </container>
-        <ul className="experience-list hidden">
+        <ul className="experience-list">
           <li className="experience-list-item">
-            <h3 className="experience-title"></h3>"Full-stack software engineer
-            candidate"
+            <h3 className="experience-title">
+              <i>"Full-stack software engineer candidate"</i>
+            </h3>
             <h4 className="experience-description">July 2022 – Sep 2022 </h4>
             <h5>
               Earned certificate upon completion of full-time intensive boot
