@@ -28,7 +28,7 @@ export default function Greeting() {
                 <br />I am eager to learn many technologies and frameworks!
               </h2>
               <br />
-              <button className="button">
+              <button className="resume-button">
                 <a href="https://docs.google.com/document/d/12S9bzpJDplJncOIERJtzG56qccdH6e1FYjuRMpLjo_s/edit">
                   {" "}
                   My Resume

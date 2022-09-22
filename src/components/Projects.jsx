@@ -23,14 +23,14 @@ export default function Projects() {
                 <br />
                 <a
                   className="link"
-                  href="https://animal-rescue-frontend-js.web.app/" target="_blank"
+                  href="https://animal-rescue-frontend-js.web.app/" target="_blank" rel="noreferrer"
                 >
                   Live
                 </a>
                 &nbsp;&nbsp;
                 <a
                   className="link"
-                  href="https://github.com/cassichan/animal-rescue-frontend" target="_blank"
+                  href="https://github.com/cassichan/animal-rescue-frontend" target="_blank" rel="noreferrer"
                 >
                   Github Repo
                 </a>
@@ -54,14 +54,14 @@ export default function Projects() {
                 <br />
                 <a
                   className="link"
-                  href="https://cassies-react-project-1.web.app/" target="_blank"
+                  href="https://cassies-react-project-1.web.app/" target="_blank" rel="noreferrer"
                 >
                   Live
                 </a>
                 &nbsp;&nbsp;
                 <a
                   className="link"
-                  href="https://github.com/cassichan/personal-react-calculator" target="_blank"
+                  href="https://github.com/cassichan/personal-react-calculator" target="_blank" rel="noreferrer"
                 >
                   Github Repo
                 </a>

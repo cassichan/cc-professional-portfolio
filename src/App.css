@@ -26,15 +26,9 @@ section {
   background-color: black;
   color: white;
   font-family: inconsolata;
+  display: grid;
+  place-items: center;
 }
-/* 
-.nav-container {
-  display: flex;
-  background: rgb(7, 211, 238);
-  justify-content: flex-start;
-  align-items: center;
-  min-height: 12vh;
-} */
 
 .header-text {
   font-family: sans-serif;
@@ -45,7 +39,6 @@ section {
   display: flex;
   justify-content: space-between;
   position: sticky;
-  margin-top: 10px;
   top: 0;
   left: 0;
   right: 0;
@@ -76,19 +69,13 @@ section {
   display: flex;
 }
 
-.logo-img {
-  width: 40px;
-  height: 40px;
-  padding: 3px;
-}
-
 .header-class {
   font-size: 2rem;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.button {
+.resume-button {
   margin: 10px;
   -webkit-appearance: none;
   border: 0;
@@ -132,16 +119,11 @@ section {
 .main-skills-container {
   font-size: 1rem;
   text-align: center;
-  width: 900px;
-  padding: 50px;
 }
-
-
 
 .skills-container {
   margin: 100px;
   display: flex;
-  /* flex-direction: row; */
   justify-content: center;
 }
 
