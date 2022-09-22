@@ -1,6 +1,9 @@
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 export default function Skills() {
   return (
-    <container className="main-skills-container">
+    <section className="main-skills-container">
+       <AnimationOnScroll animateIn="animate__bounceIn">
       <container className="skills-title">
         <h2 className="header-class">Skills</h2>
       </container>
@@ -9,14 +12,14 @@ export default function Skills() {
           <img className="react-img" src="undraw_React_re_g3ui.png"></img>
         </container>
         <container>
-          Frontend Development/Design
+          Frontend Development
           <br />
           Backend Development
         </container>
         <br />
       </container>
       <br />
-      <container className="skills-container">
+      <container className="skills-container hidden">
         <container className="skill">
           JavaScript
           <a
@@ -132,6 +135,7 @@ export default function Skills() {
           </a>
         </container>
       </container>
-    </container>
+      </AnimationOnScroll>
+    </section>
   );
 }

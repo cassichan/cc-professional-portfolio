@@ -2,11 +2,6 @@ import Home from "./pages/Home.jsx";
 import { extendTheme, ChakraProvider } from "@chakra-ui/react";
 import "./App.css";
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
-</script>
-
-
-// 2. Extend the theme to include custom colors, fonts, etc
 const colors = {
   brand: {
     900: "#006666",
@@ -16,6 +11,22 @@ const colors = {
 };
 
 const theme = extendTheme({ colors });
+
+// const observer = new IntersectionObserver((entries) => {
+//   entries.forEach((entry) => {
+//     console.log(entry)
+//     if(entry.isIntersecting) {
+//       entry.target.classList.add('show')
+//     } 
+//     else {
+//       entry.target.classList.remove('show')
+
+//     }
+//   })
+// })
+// const hiddenElements = document.querySelectorAll('.hidden');
+// hiddenElements.forEach((elem) => observer.observe(elem))
+
 
 function App() {
   return (

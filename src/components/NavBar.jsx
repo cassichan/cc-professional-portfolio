@@ -26,7 +26,7 @@ import "../App.css";
 export default function NavBar() {
   return (
     <>
-      <container className="nav-container">
+      <section className="nav-container">
         <header className="header-text">
           Cassandra's Portfolio
         </header>
@@ -76,7 +76,7 @@ export default function NavBar() {
             </MenuItem>
           </MenuList>
         </Menu>
-      </container>
+      </section>
     </>
   );
 }

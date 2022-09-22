@@ -1,4 +1,4 @@
-// import ReactCSSTransitionGroup from 'react-transition-group';
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export default function Greeting() {
   return (
@@ -14,31 +14,33 @@ export default function Greeting() {
             Hi! I'm <span class="typewriter"></span>
           </h1>
 
-          <h1 aria-label="Hi! I'm a developer">
+          {/* <h1 aria-label="Hi! I'm a developer">
             I'm a passionate full-stack&nbsp;<span class="typewriter thick"></span>
-          </h1>
+          </h1> */}
 
           {/* <h1 aria-label="Hi! I'm Cassandra Curcio">
             Hi! I'm a &nbsp;<span class="typewriter nocaret"></span>
           </h1>  */}
 
           <br />
-          <h2>
-            {" "}
-            I'm a passionate Full Stack software developer.
-            <br />
-            <br /> I am experienced in JavaScript, React.js, HTML, CSS, MongoDB,
-            Firestore, SQL, and Express.
-            <br />
-            <br />I am eager to learn many technologies and frameworks!
-          </h2>
-          <br />
-          <button className="button">
-            <a href="https://docs.google.com/document/d/12S9bzpJDplJncOIERJtzG56qccdH6e1FYjuRMpLjo_s/edit">
+          <AnimationOnScroll animateIn="animate__bounceIn">
+            <h2>
               {" "}
-              My Resume
-            </a>
-          </button>
+              I'm a passionate Full Stack software developer!
+              <br />
+              <br /> I am experienced in JavaScript, React.js, HTML, CSS,
+              MongoDB, Firestore, SQL, and Express.
+              <br />
+              <br />I am eager to learn many technologies and frameworks!
+            </h2>
+            <br />
+            <button className="button">
+              <a href="https://docs.google.com/document/d/12S9bzpJDplJncOIERJtzG56qccdH6e1FYjuRMpLjo_s/edit">
+                {" "}
+                My Resume
+              </a>
+            </button>
+          </AnimationOnScroll>
         </container>
         {/* <img
           className="photo-self"

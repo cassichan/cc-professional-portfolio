@@ -1,13 +1,14 @@
+import { AnimationOnScroll } from "react-animation-on-scroll";
+
 export default function Projects() {
   return (
-    <>
-      <section className="project-container">
+    <section className="project-container">
+      <AnimationOnScroll animateIn="animate__bounceIn">
         <container className="project-title">
           <h2 className="header-class">Projects</h2>
         </container>
-        <ul className="project-list">
-          <li className="project-list-item"
-          >
+        <ul className="project-list hidden">
+          <li className="project-list-item">
             <article className="project-section">
               <h3 className="project-title">"Chance 4 Pets"</h3>
               <h4 className="project-description">
@@ -32,7 +33,7 @@ export default function Projects() {
               <h3 className="project-title">"Cassie's Calculator"</h3>A
               calculator web app using React. Styled with pure CSS and deployed
               using firebase hosting
-              <h4 className="project-description">blah</h4>
+              <h4 className="project-description"></h4>
               <a
                 className="link"
                 href="https://github.com/cassichan/animal-rescue-frontend"
@@ -40,7 +41,7 @@ export default function Projects() {
             </article>
           </li>
         </ul>
-      </section>
-    </>
+      </AnimationOnScroll>
+    </section>
   );
 }
