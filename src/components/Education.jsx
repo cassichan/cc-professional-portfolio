@@ -17,7 +17,7 @@ export default function Education() {
                 <h3 className="education-title">
                   Boca Code Software Engineering Career Course Certificate
                 </h3>
-                <h4 className="education-description">July 2022- Sep 2022 </h4>
+                <h4 className="education-description">July 2022- Sep 2022 </h4><br/>
                 <img
                   className="lordicon"
                   src="478-computer-display-gradient.gif"
@@ -31,7 +31,7 @@ export default function Education() {
                   Nova Southeastern University
                   <br /> Master of Science in Nutrition
                 </h3>
-                <h4 className="education-description"> May 2019</h4>
+                <h4 className="education-description"> May 2019</h4><br/>
                 <img
                   className="lordicon"
                   src=" 526-paper-bag-vegetables-gradient.gif"
@@ -45,7 +45,7 @@ export default function Education() {
                   Nova Southeastern University
                   <br /> Bachelor of Science in Nursing
                 </h3>
-                <h4 className="education-description"> May 2014</h4>
+                <h4 className="education-description"> May 2014</h4><br/>
                 <img
                   className="lordicon"
                   src="498-ambulance-gradient.gif"
