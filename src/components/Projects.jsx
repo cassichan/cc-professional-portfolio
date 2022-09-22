@@ -9,57 +9,70 @@ export default function Projects() {
             {"<"}Projects{">"}
           </h2>
         </container>
-        <ul className="project-list hidden">
+        <ul className="project-list">
           <li className="project-list-item">
             <article className="project-section">
               <h3 className="project-title">"Chance 4 Pets"</h3>
               <h4 className="project-description">
-                A full-stack web application that allows users to view animals
-                available for adoption from several local animal rescues, post
-                information and images for an animal in need of shelter intake,
-                and implemented security with JSON web token that allows users
-                to create an account, log in and favorite animals. Front end
-                development using React. Utilized CSS and Ant Design for clean
-                styling. Back-end development using MongoDB document database.
-                RESTful API with Express and Node. Hosted on Firebase Hosting
-                and deployed on Google Cloud with Firebase Functions
+                A full-stack animal-rescue web application. Front end
+                development using React. Styled with CSS and Ant Design.
+                Back-end development using MongoDB. RESTful API with Express and
+                Node. Deployed on Google Cloud with Firebase Hosting and
+                Firebase Functions
+                <br />
+                <br />
+                <a
+                  className="link"
+                  href="https://animal-rescue-frontend-js.web.app/"
+                >
+                  Live
+                </a>
+                &nbsp;&nbsp;
+                <a
+                  className="link"
+                  href="https://github.com/cassichan/animal-rescue-frontend"
+                >
+                  Github Repo
+                </a>
               </h4>
               <br />
-              <a
-                className="link"
-                href="https://animal-rescue-frontend-js.web.app/"
-              >
-                Live
-              </a>
+              <iframe
+                title="animal-rescue"
+                className="iframe"
+                src="https://animal-rescue-frontend-js.web.app/"
+              ></iframe>
               <br />
-              <a
-                className="link"
-                href="https://github.com/cassichan/animal-rescue-frontend"
-              >
-                Github Repo
-              </a>
             </article>
           </li>
           <li className="project-list-item">
             <article className="project-section">
-              <h3 className="project-title">"Cassie's Calculator"</h3>A
-              calculator web application using React. Styled with pure CSS and
-              deployed using firebase hosting
-              {/* <h4 className="project-description"></h4> */}
+              <h3 className="project-title">"Cassie's Calculator"</h3>
+              <h4 className="project-description">
+                A calculator web application using React. Styled with pure CSS
+                and deployed using firebase hosting
+                <br />
+                <br />
+                <a
+                  className="link"
+                  href="https://cassies-react-project-1.web.app/"
+                >
+                  Live
+                </a>
+                &nbsp;&nbsp;
+                <a
+                  className="link"
+                  href="https://github.com/cassichan/personal-react-calculator"
+                >
+                  Github Repo
+                </a>
+              </h4>
+
+              <iframe
+                title="calculator"
+                className="iframe"
+                src="https://cassies-react-project-1.web.app/"
+              ></iframe>
               <br />
-              <a
-                className="link"
-                href="https://cassies-react-project-1.web.app/"
-              >
-                Live
-              </a>
-              <br />
-              <a
-                className="link"
-                href="https://github.com/cassichan/animal-rescue-frontend"
-              >
-                Github Repo
-              </a>
             </article>
           </li>
         </ul>

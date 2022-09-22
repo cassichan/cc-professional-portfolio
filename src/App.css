@@ -157,19 +157,10 @@ section {
   margin: auto;
 }
 
-/* .education-container {
-  text-align: left;
-} */
-
 .education-list {
   display: flex;
   list-style: none;
   text-align: center;
-  /* justify-content: center;
-  align-items: center; */
-}
-
-.education-list-item {
 }
 
 .education-list-item-container {
@@ -226,7 +217,7 @@ section {
 .project-list-item {
   padding: 20px;
   margin: 10px;
-  height: 65vh;
+  height: 120vh;
   border: white;
   border-style: solid;
   contain: content;
@@ -239,6 +230,12 @@ section {
 .project-description {
   padding: 0 1.5rem;
   width: fit-content;
+  height: 30vh;
+}
+
+.iframe {
+  height: 70vh;
+  width: 100%
 }
 
 footer {
