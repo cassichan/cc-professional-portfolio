@@ -12,7 +12,7 @@ export default function ContactMe() {
         className="photo-self"
         // src="photoscreenshot.png"
         src="D2BEA143-BDAC-4F8E-BDF2-CD6B4A62736D_1_201_a.jpeg"
-        alt="Photo of Cassandra, female with dark blonde hair in orange blouse and grey slacks."
+        alt="Cassandra, female with dark blonde hair in orange blouse and grey slacks."
       ></img>
 
       <section class="social-container">
@@ -20,25 +20,13 @@ export default function ContactMe() {
           <container class="icon">
             <i class="fab fa-linkedin-f"></i>
             <img
-            className="logo-img"
-            src="/linkedinblack.png"
-            alt="Linkedin logo: 'in' in white text inside of a rounded light-royal-blue square."
-          ></img>
+              className="logo-img"
+              src="/linkedinblack.png"
+              alt="Linkedin logo: 'in' in white text inside of a rounded light-royal-blue square."
+            ></img>
           </container>
           <span>LinkedIn</span>
         </container>
-        {/* <container class="button">
-            <container class="icon">
-               <i class="fab fa-twitter"></i>
-            </container>
-            <span>Twitter</span>
-         </container> */}
-        {/* <container class="button">
-            <container class="icon">
-               <i class="fab fa-instagram"></i>
-            </container>
-            <span>Instagram</span>
-         </container> */}
         <container class="button">
           <container class="icon">
             <i class="fab fa-github"></i>
@@ -50,25 +38,18 @@ export default function ContactMe() {
           </container>
           <span>Github</span>
         </container>
-        {/* <container class="button">
-            <container class="icon">
-               <i class="fab fa-youtube"></i>
-            </container>
-            <span>YouTube</span>
-         </container> */}
+        <container class="button">
+          <container class="icon">
+            <i class="fab fa-email"></i>
+            <img
+              className="logo-img"
+              src="email.png"
+              alt="Icon of mail envelope"
+            ></img>
+          </container>
+          <span>E-mail</span>
+        </container>
       </section>
-
-      {/* E-mail
-      <a href="https://github.com/cassichan" target="_blank" rel="noreferrer">
-        Github{" "}
-      </a>
-      <a
-        href="https://www.linkedin.com/in/cassandra-l-curcio/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Linkedin
-      </a> */}
     </section>
   );
 }
