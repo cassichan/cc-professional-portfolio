@@ -200,6 +200,10 @@ section {
   padding: 20px;
 }
 
+.project-text {
+  /* height: ; */
+}
+
 .project-list {
   display: flex;
   justify-content: center;
@@ -223,7 +227,7 @@ section {
 .project-description {
   padding: 0 1.5rem;
   width: fit-content;
-  height: 30vh;
+  /* height: 50vh; */
 }
 
 .link {

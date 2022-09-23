@@ -19,33 +19,47 @@ export default function ContactMe() {
         <container class="button">
           <container class="icon">
             <i class="fab fa-linkedin-f"></i>
-            <img
-              className="logo-img"
-              src="/linkedinblack.png"
-              alt="Linkedin logo: 'in' in white text inside of a rounded light-royal-blue square."
-            ></img>
+            <a
+              href="https://www.linkedin.com/in/cassandra-l-curcio/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="logo-img"
+                src="/linkedinblack.png"
+                alt="Linkedin logo: 'in' in white text inside of a rounded light-royal-blue square."
+              ></img>
+            </a>
           </container>
           <span>LinkedIn</span>
         </container>
         <container class="button">
           <container class="icon">
             <i class="fab fa-github"></i>
-            <img
-              className="logo-img"
-              src="GitHub-Mark-32px.png"
-              alt="Github logo: the silhouette of a white cat outline with a tentactle-shaped tail inside of a black circle."
-            ></img>
+            <a
+              href="https://github.com/cassichan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="logo-img"
+                src="GitHub-Mark-32px.png"
+                alt="Github logo: the silhouette of a white cat outline with a tentactle-shaped tail inside of a black circle."
+              ></img>
+            </a>
           </container>
           <span>Github</span>
         </container>
         <container class="button">
           <container class="icon">
             <i class="fab fa-email"></i>
-            <img
-              className="logo-img"
-              src="email.png"
-              alt="Icon of mail envelope"
-            ></img>
+            <a href="mailto:cassandra.curcio@gmail.com">
+              <img
+                className="logo-img"
+                src="email.png"
+                alt="Icon of mail envelope"
+              ></img>
+            </a>
           </container>
           <span>E-mail</span>
         </container>
