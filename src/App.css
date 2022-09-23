@@ -132,6 +132,8 @@ section {
   margin: 100px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  
 }
 
 .skills-text {
