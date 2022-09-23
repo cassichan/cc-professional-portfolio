@@ -8,18 +8,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Inconsolata:wght@400;800&family=Montserrat:wght@100;400&family=Nanum+Gothic:wght@700&family=Open+Sans:ital,wght@0,300;1,400&family=Roboto:wght@400;500&display=swap");
 
-.greeting-intro {
-  font-size: 5rem;
-}
-
-.greeting-details {
-  font-size: 1.5rem;
-}
-
 section {
-  min-height: 50vh;
-  display: grid;
-  place-items: center;
+  min-height: 57vh;
+  width: 100vw;
 }
 
 .home-content {
@@ -28,6 +19,11 @@ section {
   font-family: inconsolata;
   display: grid;
   place-items: center;
+}
+
+@media (min-width: 1007px) {
+  .section {
+  }
 }
 
 .header-text {
@@ -61,6 +57,10 @@ section {
     #daeef7
   );
   z-index: 100;
+}
+
+.nav-link {
+  text-decoration: none;
 }
 
 .social-container {
@@ -97,6 +97,14 @@ section {
   /* transition: 0.3s; */
 }
 
+.greeting-intro {
+  font-size: 5rem;
+}
+
+.greeting-details {
+  font-size: 1.5rem;
+}
+
 .greeting-text {
   font-size: 1rem;
   margin: 50px;
@@ -115,7 +123,7 @@ section {
 }
 
 /* .main-skills-container { */
-  .skills {
+.skills {
   font-size: 1rem;
   text-align: center;
 }
@@ -168,9 +176,6 @@ section {
 
 .experience {
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
 }
 
 .experience-title {
@@ -195,18 +200,17 @@ section {
 }
 
 .project-section {
-  width: 400px;
   padding: 20px;
-}
-
-.project-text {
-  /* height: ; */
+  text-align: center;
 }
 
 .project-list {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   list-style: none;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
 }
 
 .project-list-item {
