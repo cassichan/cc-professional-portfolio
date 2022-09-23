@@ -1,6 +1,7 @@
 import Home from "./pages/Home.jsx";
 import { extendTheme, ChakraProvider } from "@chakra-ui/react";
 import "./App.css";
+import { NavContextProvider } from "./context/NavContext.jsx";
 
 const colors = {
   brand: {
@@ -17,7 +18,7 @@ const theme = extendTheme({ colors });
 //     console.log(entry)
 //     if(entry.isIntersecting) {
 //       entry.target.classList.add('show')
-//     } 
+//     }
 //     else {
 //       entry.target.classList.remove('show')
 
@@ -27,12 +28,13 @@ const theme = extendTheme({ colors });
 // const hiddenElements = document.querySelectorAll('.hidden');
 // hiddenElements.forEach((elem) => observer.observe(elem))
 
-
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-      <Home />
-    </ChakraProvider>
+    <NavContextProvider>
+      <ChakraProvider theme={theme}>
+        <Home />
+      </ChakraProvider>
+    </NavContextProvider>
   );
 }
 

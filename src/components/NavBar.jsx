@@ -1,3 +1,5 @@
+import { useRef, useContext } from "react";
+
 import {
   Stack,
   Button,
@@ -21,40 +23,51 @@ import {
   RepeatIcon,
   EditIcon,
 } from "@chakra-ui/icons";
+import Skills from "./Skills";
+import Education from "./Education";
+import Experience from "./Experience";
+import Projects from "./Projects";
+import ContactMe from "./ContactMe";
 import "../App.css";
+import { NavContext } from "../context/NavContext";
 
 export default function NavBar() {
+  const { skills, education, experience, projects, contact } =
+    useContext(NavContext);
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       <section className="nav-container">
         <header className="header-text">
-          <b>{"<"}Cassandra's Portfolio{">"}</b>
+          <b>
+            {"<"}Cassandra's Portfolio{">"}
+          </b>
         </header>
-        {/* <container className="social-container">
-          <a
-            href="https://github.com/cassichan"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="logo-img"
-              src="/GitHub-Mark-32px.png"
-              alt="Github logo: the silhouette of a white cat outline with a tentactle-shaped tail inside of a black circle."
-            ></img>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/cassandra-l-curcio/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="logo-img"
-              src="/linkedinblack.png"
-              alt="Linkedin logo: 'in' in white text inside of a rounded light-royal-blue square."
-            ></img>
-          </a>
-        </container> */}
-        <Menu>
+        <ul>
+          <li onClick={() => scrollToSection(skills)} className="nav-link">
+            Skills
+          </li>
+          <li onClick={() => scrollToSection(education)} className="nav-link">
+            Education
+          </li>
+          <li onClick={() => scrollToSection(experience)} className="nav-link">
+            Experience
+          </li>
+          <li onClick={() => scrollToSection(projects)} className="nav-link">
+            Projects
+          </li>
+          <li onClick={() => scrollToSection(contact)} className="nav-link">
+            Contact Me
+          </li>
+        </ul>
+
+        {/* <Menu>
           <MenuButton
             as={IconButton}
             aria-label="Options"
@@ -62,20 +75,13 @@ export default function NavBar() {
             variant="outline"
           />
           <MenuList>
-            <MenuItem icon={<AddIcon />} command="⌘T">
-              New Tab
-            </MenuItem>
-            <MenuItem icon={<ExternalLinkIcon />} command="⌘N">
-              New Window
-            </MenuItem>
-            <MenuItem icon={<RepeatIcon />} command="⌘⇧N">
-              Open Closed Tab
-            </MenuItem>
-            <MenuItem icon={<EditIcon />} command="⌘O">
-              Open File...
-            </MenuItem>
+            <MenuItem icon={<Skills />}>Skills</MenuItem>
+            <MenuItem icon={<Education />}>Education</MenuItem>
+            <MenuItem icon={<Experience />}>Experience</MenuItem>
+            <MenuItem icon={<Projects />}>Projects</MenuItem>
+            <MenuItem icon={<ContactMe />}>Contact Me</MenuItem>
           </MenuList>
-        </Menu>
+        </Menu> */}
       </section>
     </>
   );

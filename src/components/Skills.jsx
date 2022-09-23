@@ -1,8 +1,12 @@
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import {useContext } from "react";
+import { NavContext } from "../context/NavContext";
 
 export default function Skills() {
+  const {skills} = useContext(NavContext)
   return (
-    <section className="main-skills-container">
+    // <section className="main-skills-container">
+    <section className="skills" ref={skills}>
       <AnimationOnScroll animateIn="animate__bounceIn">
         <container className="skills-title">
           <h2 className="header-class">

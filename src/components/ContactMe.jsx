@@ -1,8 +1,11 @@
+import { useContext } from "react";
+import { NavContext } from "../context/NavContext";
 import "../styles/contactme.css";
 
 export default function ContactMe() {
+  const { contact } = useContext(NavContext);
   return (
-    <section className="contact-me">
+    <section className="contact" ref={contact}>
       <container className="contact-title">
         <h2 className="header-class">
           {"<"}Contact me{">"}
