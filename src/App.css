@@ -21,11 +21,6 @@ section {
   place-items: center;
 }
 
-@media (min-width: 1007px) {
-  .section {
-  }
-}
-
 .header-text {
   font-family: sans-serif;
   font-size: 1.75rem;
@@ -133,7 +128,6 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
 }
 
 .skills-text {
@@ -196,10 +190,10 @@ section {
 }
 
 .bocacode-img {
-  margin: auto;
-  height: auto;
-  width: 20%;
   padding: 30px;
+  height: auto;
+  width: 25%;
+  margin: auto;
 }
 
 .project-section {
@@ -223,7 +217,7 @@ section {
   padding: 20px;
   margin: 20px;
   height: 140vh;
-  width: 50vw;
+  width: 40vw;
   border: white;
   border-style: solid;
   box-shadow: 10px 10px 8px #888888;
@@ -398,12 +392,56 @@ footer {
   }
 } */
 
-.photo-self {
-  width: 300px;
-  height: auto;
-}
-
 .contact {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 845px) {
+  .greeting-intro {
+    font-size: 2rem;
+  }
+  .typewriter {
+    --caret: currentcolor;
+    font-size: 2rem;
+  }
+  .education-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+  }
+
+  .education-list-item-container {
+    width: 70vw;
+  }
+  .bocacode-img {
+    width: 40%;
+  }
+  .project-list {
+    /* display: flex;
+    justify-content: center; */
+    list-style: none;
+    display: grid;
+    grid-template-row: 1fr 1fr;
+    text-align: center;
+    place-items: center;
+  }
+
+  .project-list-item {
+    padding: 20px;
+    margin: 20px;
+    height: 60vh;
+    width: 80vw;
+    border: white;
+    border-style: solid;
+    box-shadow: 10px 10px 8px #888888;
+    contain: content;
+    text-align: center;
+  }
+
+  .iframe {
+    display: none;
+  }
 }

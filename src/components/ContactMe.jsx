@@ -11,13 +11,6 @@ export default function ContactMe() {
           {"<"}Contact me{">"}
         </h2>
       </container>
-      <img
-        className="photo-self"
-        // src="photoscreenshot.png"
-        src="D2BEA143-BDAC-4F8E-BDF2-CD6B4A62736D_1_201_a.jpeg"
-        alt="Cassandra, female with dark blonde hair in orange blouse and grey slacks."
-      ></img>
-
       <section class="social-container">
         <container class="button">
           <container class="icon">
@@ -67,6 +60,12 @@ export default function ContactMe() {
           <span>E-mail</span>
         </container>
       </section>
+      <img
+        className="photo-self"
+        // src="photoscreenshot.png"
+        src="D2BEA143-BDAC-4F8E-BDF2-CD6B4A62736D_1_201_a.jpeg"
+        alt="Cassandra, female with dark blonde hair in orange blouse and grey slacks."
+      ></img>
     </section>
   );
 }
