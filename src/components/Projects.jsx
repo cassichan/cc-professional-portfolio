@@ -1,9 +1,10 @@
-import {useContext } from "react";
+import { useContext } from "react";
 import { NavContext } from "../context/NavContext";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+// import "../styles/projects.css"
 
 export default function Projects() {
-  const {projects} = useContext(NavContext)
+  const { projects } = useContext(NavContext);
   return (
     <section className="projects" ref={projects}>
       <AnimationOnScroll animateIn="animate__bounceIn">

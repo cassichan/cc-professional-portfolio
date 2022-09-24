@@ -9,7 +9,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Inconsolata:wght@400;800&family=Montserrat:wght@100;400&family=Nanum+Gothic:wght@700&family=Open+Sans:ital,wght@0,300;1,400&family=Roboto:wght@400;500&display=swap");
 
 section {
-  /* min-height: 57vh; */
   width: 100vw;
 }
 
@@ -89,7 +88,6 @@ section {
   text-transform: uppercase;
   border-radius: 100px;
   font-size: 1.3rem;
-  /* transition: 0.3s; */
 }
 
 .greeting-intro {
@@ -116,6 +114,7 @@ section {
   margin: auto;
   padding: 50px;
 }
+
 .skills {
   font-size: 1rem;
   text-align: center;
@@ -202,8 +201,6 @@ section {
 }
 
 .project-list {
-  /* display: flex;
-  justify-content: center; */
   list-style: none;
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -230,7 +227,6 @@ section {
 .project-description {
   padding: 0 1.5rem;
   width: fit-content;
-  /* height: 50vh; */
 }
 
 .link {
@@ -245,12 +241,6 @@ section {
   height: 90vh;
   width: 100%;
 }
-
-/* footer {
-  color: white;
-  width: 100%;
-  height: 30vh;
-} */
 
 @keyframes typing {
   0% {
@@ -388,14 +378,104 @@ section {
   100% {
     transform: skew(0deg);
   }
-} */
+}*/
 
 .contact {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  place-items: center;
 }
 
-@media (max-width: 845px) {
+.social-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logo-img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.photo-self {
+  width: 50%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.contact .button {
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+.contact .button:hover {
+  width: 200px;
+}
+.contact .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.contact .button:nth-child(1):hover .icon {
+  background: #4267b2;
+}
+.contact .button:nth-child(2):hover .icon {
+  background: #1da1f2;
+}
+.contact .button:nth-child(3):hover .icon {
+  background: #e1306c;
+}
+.contact .button:nth-child(4):hover .icon {
+  background: #333;
+}
+.contact .button:nth-child(5):hover .icon {
+  background: #ff0000;
+}
+.contact .button .icon i {
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.contact .button:hover .icon i {
+  color: #fff;
+}
+.contact .button span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.contact .button:nth-child(1) span {
+  color: #4267b2;
+}
+.contact .button:nth-child(2) span {
+  color: #1da1f2;
+}
+.contact .button:nth-child(3) span {
+  color: #e1306c;
+}
+/* .contact .button:nth-child(4) span {
+  color: #333;
+}
+.contact .button:nth-child(5) span {
+  color: #ff0000;
+} */
+
+/* @media (max-width: 845px) { */
+  @media screen and (max-width: 1000px) {
   section {
     min-height: 20vh;
   }
@@ -410,6 +490,7 @@ section {
   .skills-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-content: center;
   }
   .education-list {
     display: flex;
@@ -426,8 +507,6 @@ section {
     width: 40%;
   }
   .project-list {
-    /* display: flex;
-    justify-content: center; */
     list-style: none;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -438,7 +517,7 @@ section {
   .project-list-item {
     padding: 20px;
     margin: 20px;
-    height: 70vh;
+    height: 30vh;
     width: 80vw;
     border: white;
     border-style: solid;
@@ -451,3 +530,27 @@ section {
     display: none;
   }
 }
+
+
+@media only screen and (max-width: 808px) {
+  .iframe {
+    display: none;
+  }
+  .project-list-item {
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 553px) {
+  .project-list-item {
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .project-list-item {
+    height: 60vh;
+  }
+}
+
+

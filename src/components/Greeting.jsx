@@ -1,5 +1,6 @@
 import Intro from "./Intro";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+// import "../styles/greeting.css"
 import "../App.css";
 import { Divider } from "@chakra-ui/react";
 

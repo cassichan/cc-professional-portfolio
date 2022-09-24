@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { NavContext } from "../context/NavContext";
-import "../styles/contactme.css";
+// import "../styles/contactme.css";
 
 export default function ContactMe() {
   const { contact } = useContext(NavContext);

@@ -1,6 +1,7 @@
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { useContext } from "react";
 import { NavContext } from "../context/NavContext";
+// import "../styles/experience.css"
 
 export default function Experience() {
   const { experience } = useContext(NavContext);

@@ -1,11 +1,11 @@
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import {useContext } from "react";
 import { NavContext } from "../context/NavContext";
+// import "../styles/skills.css"
 
 export default function Skills() {
   const {skills} = useContext(NavContext)
   return (
-    // <section className="main-skills-container">
     <section className="skills" ref={skills}>
       <AnimationOnScroll animateIn="animate__bounceIn">
         <container className="skills-title">
@@ -18,7 +18,7 @@ export default function Skills() {
         <br />
         <container className="skills-general">
           <container className="img-react-container">
-            <img className="react-img" src="undraw_React_re_g3ui.png"></img>
+            <img className="react-img" src="undraw_React_re_g3ui.png" alt="React"></img>
           </container>
         </container>
         <br />
