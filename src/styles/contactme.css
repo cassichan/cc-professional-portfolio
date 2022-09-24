@@ -11,6 +11,7 @@
   justify-content: center;
   padding: 20px;
 }
+
 .logo-img {
   margin: auto;
   width: 100%;
@@ -20,6 +21,7 @@
 .photo-self {
   width: 50%;
   height: auto;
+  margin-bottom: 30px;
 }
 
 .contact .button {
@@ -86,9 +88,9 @@
 .contact .button:nth-child(3) span {
   color: #e1306c;
 }
-.contact .button:nth-child(4) span {
+/* .contact .button:nth-child(4) span {
   color: #333;
 }
 .contact .button:nth-child(5) span {
   color: #ff0000;
-}
+} */

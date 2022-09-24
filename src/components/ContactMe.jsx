@@ -11,9 +11,9 @@ export default function ContactMe() {
           {"<"}Contact me{">"}
         </h2>
       </container>
-      <section class="social-container">
-        <container class="button">
-          <container class="icon">
+      <section className="social-container">
+        <container className="button">
+          <container className="icon">
             <i class="fab fa-linkedin-f"></i>
             <a
               href="https://www.linkedin.com/in/cassandra-l-curcio/"
@@ -29,9 +29,9 @@ export default function ContactMe() {
           </container>
           <span>LinkedIn</span>
         </container>
-        <container class="button">
-          <container class="icon">
-            <i class="fab fa-github"></i>
+        <container className="button">
+          <container className="icon">
+            <i className="fab fa-github"></i>
             <a
               href="https://github.com/cassichan"
               target="_blank"
@@ -46,9 +46,9 @@ export default function ContactMe() {
           </container>
           <span>Github</span>
         </container>
-        <container class="button">
-          <container class="icon">
-            <i class="fab fa-email"></i>
+        <container className="button">
+          <container className="icon">
+            <i className="fab fa-email"></i>
             <a href="mailto:cassandra.curcio@gmail.com">
               <img
                 className="logo-img"
