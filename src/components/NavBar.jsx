@@ -49,7 +49,7 @@ export default function NavBar() {
             {"<"}Cassandra's Portfolio{">"}
           </b>
         </header>
-        <ul>
+        <ul className="nav-link-container">
           <li onClick={() => scrollToSection(skills)} className="nav-link">
             Skills
           </li>
