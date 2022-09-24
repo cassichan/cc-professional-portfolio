@@ -162,6 +162,7 @@ section {
   height: 35vh;
   border: white;
   border-style: solid;
+  box-shadow: 10px 10px 8px #888888;
   width: 30vw;
   contain: content;
   display: grid;
@@ -204,6 +205,8 @@ section {
 .project-section {
   padding: 20px;
   text-align: center;
+  display: grid;
+  place-items: center;
 }
 
 .project-list {
@@ -213,14 +216,17 @@ section {
   display: grid;
   grid-template-rows: 1fr 1fr;
   text-align: center;
+  place-items: center;
 }
 
 .project-list-item {
   padding: 20px;
   margin: 20px;
   height: 140vh;
+  width: 50vw;
   border: white;
   border-style: solid;
+  box-shadow: 10px 10px 8px #888888;
   contain: content;
   text-align: center;
 }
@@ -395,4 +401,9 @@ footer {
 .photo-self {
   width: 300px;
   height: auto;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
 }
