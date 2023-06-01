@@ -16,7 +16,7 @@ export default function Greeting() {
           <container className="greeting-details">
             <h2>
               {" "}
-              I'm a passionate Full Stack software developer!
+              I'm a passionate Full Stack software developer looking for new opportunities!
               <br />
               <br /> I am experienced in JavaScript, TypeScript, React.js, HTML,
               CSS, SQL, MongoDB, Firebase/GCP, Express, and Node.js.
