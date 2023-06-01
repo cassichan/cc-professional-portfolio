@@ -1,7 +1,7 @@
-import Home from "./pages/Home.jsx";
 import { extendTheme, ChakraProvider } from "@chakra-ui/react";
-import "./App.css";
+import Home from "./pages/Home.jsx";
 import { NavContextProvider } from "./context/NavContext.jsx";
+import "./App.css";
 
 const colors = {
   brand: {
