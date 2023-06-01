@@ -92,7 +92,6 @@ section {
     #e1bfff
   );
   background-size: 400% 400%;
-  animation: gradientBG 4.5s ease infinite;
   padding: 1.5rem 2rem;
   color: black;
   text-transform: uppercase;
@@ -417,11 +416,18 @@ section {
     flex-direction: column;
   }
   .greeting-intro {
-    font-size: 2rem;
+    font-size: 1.3rem;
+  }
+  .greeting-details {
+    font-size: 1rem;
   }
   .typewriter {
     --caret: currentcolor;
-    font-size: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .skills-text {
+    font-size: 1rem;
   }
 
   .education-list {
@@ -434,6 +440,10 @@ section {
 
   .education-list-item-container {
     width: 70vw;
+  }
+  .experience-title {
+    font-size: 1rem;
+    margin-bottom: 15px;
   }
   .bocacode-img {
     width: 40%;

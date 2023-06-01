@@ -18,7 +18,7 @@ export default function Experience() {
               "Director of Project Management, Software Engineer, Assistant Instructor, Internship Coordinator"
             </i>
           </h3>
-          <h4 className="experience-description">Sep 2022 – May 2023 </h4>
+          <h4 className="experience-description">Boca Code, LLC | Sep 2022 – May 2023 </h4>
           <img
             className="bocacode-img"
             src="https://pbs.twimg.com/profile_images/1273306124863889409/MAgy1kHL_400x400.jpg"
