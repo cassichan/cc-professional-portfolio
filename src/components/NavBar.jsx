@@ -19,7 +19,6 @@ export default function NavBar() {
 
   return (
     <>
-      {/* <div className="nav-container"> */}
       <section className="nav-container">
         <header className="header-text">
           <b>
@@ -43,7 +42,6 @@ export default function NavBar() {
             Contact
           </li>
         </ul>
-      {/* </div> */}
       </section>
     </>
   );
