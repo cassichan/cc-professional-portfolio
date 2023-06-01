@@ -486,6 +486,12 @@ section {
     flex-direction: row;
     font-size: 0.75rem;
   }
+
+  .resume-button {
+    background-size: 400% 400%;
+    padding: 1rem 0.8rem;
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 553px) {
