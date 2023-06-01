@@ -1,8 +1,8 @@
-import Intro from "./Intro";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { Divider } from "@chakra-ui/react";
+import Intro from "./Intro";
 // import "../styles/greeting.css"
 import "../App.css";
-import { Divider } from "@chakra-ui/react";
 
 export default function Greeting() {
   return (
@@ -23,14 +23,14 @@ export default function Greeting() {
                 {" "}
                 I'm a passionate Full Stack software developer!
                 <br />
-                <br /> I am experienced in JavaScript, React.js, HTML, CSS,
-                MongoDB, Firestore, SQL, and Express.
+                <br /> I am experienced in JavaScript, TypeScript, React.js, HTML, CSS, SQL,
+                MongoDB, Firebase/GCP, Express, and Node.js.
                 <br />
-                <br />I am eager to learn many technologies and frameworks!
+                <br />I am eager to learn many technologies and frameworks! I am currently learning Angular, NEST.js, and Nx.
               </h2>
               <br />
               <button className="resume-button">
-                <a href="https://docs.google.com/document/d/12S9bzpJDplJncOIERJtzG56qccdH6e1FYjuRMpLjo_s/edit">
+                <a href="https://docs.google.com/document/d/1q75aTXu6E3V6SPk29yzMZdI-EADhtbb-w2YjGHRUOo8/edit">
                   {" "}
                   My Resume
                 </a>

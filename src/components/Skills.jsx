@@ -1,10 +1,10 @@
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import {useContext } from "react";
+import { useContext } from "react";
 import { NavContext } from "../context/NavContext";
 // import "../styles/skills.css"
 
 export default function Skills() {
-  const {skills} = useContext(NavContext)
+  const { skills } = useContext(NavContext);
   return (
     <section className="skills" ref={skills}>
       <AnimationOnScroll animateIn="animate__bounceIn">
@@ -13,12 +13,18 @@ export default function Skills() {
             {"<"}Skills{">"}
           </h2>
         </container>
-        <h3 className="skills-text">{"{"}Frontend Development ; Backend Development{"}"}</h3>
+        <h3 className="skills-text">
+          {"{"}Frontend Development ; Backend Development{"}"}
+        </h3>
         <br />
         <br />
         <container className="skills-general">
           <container className="img-react-container">
-            <img className="react-img" src="undraw_React_re_g3ui.png" alt="React"></img>
+            <img
+              className="react-img"
+              src="undraw_React_re_g3ui.png"
+              alt="React"
+            ></img>
           </container>
         </container>
         <br />
@@ -39,6 +45,21 @@ export default function Skills() {
             </a>
           </container>
           <br />
+          <container className="skill">
+            TypeScript
+            <a
+              href="https://www.typescriptlang.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                width="36"
+                height="36"
+                alt="TypeScript"
+              />
+            </a>
+          </container>
           <container className="skill">
             HTML-5
             <a
@@ -112,14 +133,29 @@ export default function Skills() {
           </container>
           <br />
           <container className="skill">
+            PostGreSQL
+            <a
+              href="https://www.postgresql.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
+                width="36"
+                height="36"
+                alt="PostgreSQL"
+              />
+            </a>
+          </container>
+          <container className="skill">
             Express
             <a href="https://expressjs.com/" target="_blank" rel="noreferrer">
               <img
-              src="express-colored948.jpg"
-              width="36"
-              height="36"
-              alt="Express"
-            />
+                src="express-colored948.jpg"
+                width="36"
+                height="36"
+                alt="Express"
+              />
             </a>
           </container>
           <br />
