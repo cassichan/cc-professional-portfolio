@@ -473,6 +473,16 @@ section {
   .iframe {
     display: none;
   }
+  .contact .button:hover {
+    width: 60px;
+  }
+  .contact .button span {
+    display: none;
+  }
+
+  .social-container {
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 830px) {
