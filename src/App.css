@@ -68,10 +68,6 @@ section {
   color: hotpink;
 }
 
-.social-container {
-  display: flex;
-}
-
 .header-class {
   font-size: 2rem;
   margin-bottom: 20px;
@@ -214,7 +210,6 @@ section {
 .project-list {
   list-style: none;
   display: grid;
-  grid-template-rows: 1fr 1fr;
   text-align: center;
   place-items: center;
 }
@@ -223,7 +218,7 @@ section {
   padding: 20px;
   margin: 20px;
   height: 140vh;
-  width: 40vw;
+  width: 50vw;
   border: white;
   border-style: solid;
   box-shadow: 10px 10px 8px #888888;
@@ -250,7 +245,7 @@ section {
 
 .iframe {
   height: 90vh;
-  width: 100%;
+  width: 70%;
 }
 
 @keyframes typing {
@@ -385,25 +380,10 @@ section {
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
-.contact .button:nth-child(1):hover .icon {
-  background: #4267b2;
-}
-.contact .button:nth-child(2):hover .icon {
-  background: #1da1f2;
-}
-.contact .button:nth-child(3):hover .icon {
-  background: #e1306c;
-}
-.contact .button:nth-child(4):hover .icon {
-  background: #333;
-}
-.contact .button:nth-child(5):hover .icon {
-  background: #ff0000;
-}
+
 .contact .button .icon i {
   font-size: 25px;
   line-height: 60px;
-  transition: all 0.3s ease-out;
 }
 .contact .button:hover .icon i {
   color: #fff;
@@ -413,7 +393,6 @@ section {
   font-weight: 500;
   line-height: 60px;
   margin-left: 10px;
-  transition: all 0.3s ease-out;
 }
 .contact .button:nth-child(1) span {
   color: #4267b2;
@@ -442,11 +421,6 @@ section {
     font-size: 2rem;
   }
 
-  .skills-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    place-content: center;
-  }
   .education-list {
     display: flex;
     flex-direction: column;
