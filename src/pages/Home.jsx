@@ -9,11 +9,9 @@ import ContactMe from "../components/ContactMe";
 
 export default function Home() {
   return (
-    <>
+    // <>
+    <div className="home-content">
         <NavBar />
-        <br />
-        <Divider />
-      <div className="home-content">
         <Greeting />
         <Divider />
         <br />
@@ -31,6 +29,5 @@ export default function Home() {
         <ContactMe/>
         <Divider />
       </div>
-    </>
   );
 }

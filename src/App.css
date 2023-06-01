@@ -55,6 +55,7 @@ section {
   );
   z-index: 100;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
 }
 
 .nav-link-container {
