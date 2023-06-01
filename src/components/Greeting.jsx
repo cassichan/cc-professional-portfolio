@@ -22,7 +22,7 @@ export default function Greeting() {
               CSS, SQL, MongoDB, Firebase/GCP, Express, and Node.js.
               <br />
               <br />I am eager to learn many technologies and frameworks! I am
-              currently learning Angular, NEST.js, and Nx.
+              currently learning Angular, NestJS, and Nx.
             </h2>
             <br />
             <button className="resume-button">
