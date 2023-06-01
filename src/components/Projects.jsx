@@ -65,7 +65,7 @@ export default function Projects() {
                   <br />
                   <a
                     className="link"
-                    href="https://cassies-react-project-1.web.app/"
+                    href="https://cassies-react-calculator.web.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -85,7 +85,7 @@ export default function Projects() {
               <iframe
                 title="calculator"
                 className="iframe"
-                src="https://cassies-react-project-1.web.app/"
+                src="https://cassies-react-calculator.web.app/"
               ></iframe>
               <br />
             </article>
