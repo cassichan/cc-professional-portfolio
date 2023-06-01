@@ -12,6 +12,43 @@ export default function Projects() {
           </h2>
         </container>
         <ul className="project-list">
+        <li className="project-list-item">
+        <article className="project-section">
+        <container className="project-text">
+                <h3 className="project-title">"Love Letter App"</h3>
+                <br />
+                <h4 className="project-description">
+                A full-stack love letter React application that allows users to create a love letter, add the submission to the database via a RESTful API built with Express and Node.js and view all entries on the client-side of the application
+                  <br />
+                  <br />
+                  <a
+                    className="link"
+                    href="https://love-letter-web-cc.web.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live
+                  </a>
+                  &nbsp;&nbsp;
+                  <a
+                    className="link"
+                    href="https://github.com/cassichan/love-letter-react"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Repo
+                  </a>
+                </h4>
+              </container>
+              <br />
+              <iframe
+                title="love-letter-app"
+                className="iframe"
+                src="https://love-letter-web-cc.web.app/"
+              ></iframe>
+              <br />
+            </article>
+          </li>
           <li className="project-list-item">
             <article className="project-section">
               <container className="project-text">
@@ -21,7 +58,7 @@ export default function Projects() {
                   A full-stack animal-rescue web application. Front end
                   development using React. Styled with CSS and Ant Design.
                   Back-end development using MongoDB. API with Express and Node.
-                  Deployed on Google Cloud with Firebase Hosting and Firebase
+                  Deployed on Google Cloud using Firebase
                   Functions
                   <br />
                   <br />
@@ -59,8 +96,8 @@ export default function Projects() {
                 <h3 className="project-title">"Cassie's Calculator"</h3>
                 <br />
                 <h4 className="project-description">
-                  A calculator web application using React. Styled with pure CSS
-                  and deployed using firebase hosting
+                  A calculator web application using React, styled with CSS
+                  and deployed to GCP using firebase hosting
                   <br />
                   <br />
                   <a
