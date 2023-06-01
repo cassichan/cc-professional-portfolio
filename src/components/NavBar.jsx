@@ -1,33 +1,4 @@
-import { useRef, useContext } from "react";
-
-import {
-  Stack,
-  Button,
-  ButtonGroup,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
-  IconButton,
-} from "@chakra-ui/react";
-import {
-  PhoneIcon,
-  AddIcon,
-  WarningIcon,
-  HamburgerIcon,
-  ExternalLinkIcon,
-  RepeatIcon,
-  EditIcon,
-} from "@chakra-ui/icons";
-import Skills from "./Skills";
-import Education from "./Education";
-import Experience from "./Experience";
-import Projects from "./Projects";
-import ContactMe from "./ContactMe";
+import { useContext } from "react";
 import "../App.css";
 import { NavContext } from "../context/NavContext";
 
@@ -36,13 +7,19 @@ export default function NavBar() {
     useContext(NavContext);
 
   const scrollToSection = (elementRef) => {
+    const rect = elementRef.current.getBoundingClientRect();
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const elementTop = rect.top + scrollTop - 80;
+
     window.scrollTo({
-      top: elementRef.current.offsetTop,
+      top: elementTop,
       behavior: "smooth",
     });
   };
+
   return (
     <>
+      {/* <div className="nav-container"> */}
       <section className="nav-container">
         <header className="header-text">
           <b>
@@ -66,22 +43,7 @@ export default function NavBar() {
             Contact Me
           </li>
         </ul>
-
-        {/* <Menu>
-          <MenuButton
-            as={IconButton}
-            aria-label="Options"
-            icon={<HamburgerIcon />}
-            variant="outline"
-          />
-          <MenuList>
-            <MenuItem icon={<Skills />}>Skills</MenuItem>
-            <MenuItem icon={<Education />}>Education</MenuItem>
-            <MenuItem icon={<Experience />}>Experience</MenuItem>
-            <MenuItem icon={<Projects />}>Projects</MenuItem>
-            <MenuItem icon={<ContactMe />}>Contact Me</MenuItem>
-          </MenuList>
-        </Menu> */}
+      {/* </div> */}
       </section>
     </>
   );

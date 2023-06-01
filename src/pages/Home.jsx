@@ -9,7 +9,6 @@ import ContactMe from "../components/ContactMe";
 
 export default function Home() {
   return (
-    // <>
     <div className="home-content">
         <NavBar />
         <Greeting />
