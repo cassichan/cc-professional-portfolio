@@ -1,13 +1,11 @@
 import { useContext } from "react";
 import { NavContext } from "../context/NavContext";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 // import "../styles/education.css"
 import "../App.css";
 
 export default function Education() {
   const { education } = useContext(NavContext);
   return (
-    <AnimationOnScroll animateIn="animate__bounceIn">
       <section className="education" ref={education}>
         <container className="education-title">
           <h2 className="header-class">
@@ -63,6 +61,5 @@ export default function Education() {
           </ul>
         </container>
       </section>
-    </AnimationOnScroll>
   );
 }
