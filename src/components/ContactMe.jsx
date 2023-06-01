@@ -62,9 +62,8 @@ export default function ContactMe() {
       </section>
       <img
         className="photo-self"
-        // src="photoscreenshot.png"
-        src="D2BEA143-BDAC-4F8E-BDF2-CD6B4A62736D_1_201_a.jpeg"
-        alt="Cassandra, female with dark blonde hair in orange blouse and grey slacks."
+        src="self.jpeg"
+        alt="Cassandra, female with dark blonde hair in blue blouse and blue jeans."
       ></img>
     </section>
   );
