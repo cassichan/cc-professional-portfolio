@@ -8,6 +8,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Inconsolata:wght@400;800&family=Montserrat:wght@100;400&family=Nanum+Gothic:wght@700&family=Open+Sans:ital,wght@0,300;1,400&family=Roboto:wght@400;500&display=swap");
 
+img {
+  display: inline-block !important;
+}
 section {
   width: 100vw;
 }
@@ -446,7 +449,7 @@ section {
   .project-list-item {
     padding: 20px;
     margin: 20px;
-    height: 30vh;
+    height: inherit;
     width: 80vw;
     border: white;
     border-style: solid;
@@ -461,22 +464,13 @@ section {
 }
 
 @media only screen and (max-width: 808px) {
-  .iframe {
-    display: none;
-  }
-  .project-list-item {
-    height: 40vh;
-  }
 }
 
 @media only screen and (max-width: 553px) {
-  .project-list-item {
-    height: 50vh;
-  }
 }
 
 @media only screen and (max-width: 415px) {
-  .project-list-item {
-    height: 60vh;
+  .skills-container {
+    margin: 30px;
   }
 }

@@ -28,7 +28,7 @@ export default function Skills() {
       <br />
       <container className="skills-container">
         <container className="skill">
-          JavaScript
+          <p>JavaScript</p>
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             target="_blank"
@@ -39,12 +39,13 @@ export default function Skills() {
               width="36"
               height="36"
               alt="JavaScript"
+              className="skill-img"
             />
           </a>
         </container>
         <br />
         <container className="skill">
-          TypeScript
+          <p>TypeScript</p>
           <a
             href="https://www.typescriptlang.org/"
             target="_blank"
@@ -55,11 +56,12 @@ export default function Skills() {
               width="36"
               height="36"
               alt="TypeScript"
+              className="skill-img"
             />
           </a>
         </container>
         <container className="skill">
-          HTML-5
+          <p>HTML-5</p>
           <a
             href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
             target="_blank"
@@ -70,12 +72,13 @@ export default function Skills() {
               width="36"
               height="36"
               alt="HTML5"
+              className="skill-img"
             />
           </a>
         </container>
         <br />
         <container className="skill">
-          CSS-3
+          <p>CSS-3</p>
           <a
             href="https://www.w3.org/TR/CSS/#css"
             target="_blank"
@@ -86,36 +89,39 @@ export default function Skills() {
               width="36"
               height="36"
               alt="CSS"
+              className="skill-img"
             />
           </a>
         </container>
         <br />
         <container className="skill">
-          React
+          <p> React </p>
           <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
               width="36"
               height="36"
               alt="ReactJS"
+              className="skill-img"
             />
           </a>
         </container>
         <br />
         <container className="skill">
-          MongoDB
+          <p> MongoDB </p>
           <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
               width="36"
               height="36"
               alt="MongoDB"
+              className="skill-img"
             />
           </a>
         </container>
         <br />
         <container className="skill">
-          Firebase
+          <p> Firebase </p>
           <a
             href="https://firebase.google.com/"
             target="_blank"
@@ -126,12 +132,13 @@ export default function Skills() {
               width="36"
               height="36"
               alt="Firebase"
+              className="skill-img"
             />
           </a>
         </container>
         <br />
         <container className="skill">
-          PostGreSQL
+          <p>PostGreSQL</p>
           <a
             href="https://www.postgresql.org/"
             target="_blank"
@@ -142,25 +149,33 @@ export default function Skills() {
               width="36"
               height="36"
               alt="PostgreSQL"
+              className="skill-img"
             />
           </a>
         </container>
         <container className="skill">
-          Express
+          <p>Express</p>
           <a href="https://expressjs.com/" target="_blank" rel="noreferrer">
             <img
               src="express-colored948.jpg"
               width="36"
               height="36"
               alt="Express"
+              className="skill-img"
             />
           </a>
         </container>
         <br />
         <container className="skill">
-          Node
+          <p>Node</p>
           <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
-            <img src="node.png" width="36" height="36" alt="Node" />
+            <img
+              src="node.png"
+              width="36"
+              height="36"
+              alt="NodeJS"
+              className="skill-img"
+            />
           </a>
         </container>
       </container>
