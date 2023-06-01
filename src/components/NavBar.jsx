@@ -40,7 +40,7 @@ export default function NavBar() {
             Projects
           </li>
           <li onClick={() => scrollToSection(contact)} className="nav-link">
-            Contact Me
+            Contact
           </li>
         </ul>
       {/* </div> */}
