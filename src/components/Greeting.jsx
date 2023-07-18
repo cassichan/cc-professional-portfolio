@@ -26,7 +26,7 @@ export default function Greeting() {
             </h2>
             <br />
             <button className="resume-button">
-              <a href="https://docs.google.com/document/d/1q75aTXu6E3V6SPk29yzMZdI-EADhtbb-w2YjGHRUOo8/edit">
+              <a href="https://docs.google.com/document/d/15GM5uc_WCekFqrclNi2-AW8xl1Y2qdjvGTno2DbRWsw/edit?usp=sharing">
                 {" "}
                 My Resume
               </a>
